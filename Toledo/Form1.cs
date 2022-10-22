@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace Toledo
@@ -22,9 +16,9 @@ namespace Toledo
             int n1 = Convert.ToInt32(thisDay.ToString("dd")) + 20;
             int n2 = Convert.ToInt32(thisDay.ToString("MM")) + 11;
             label1.Text = Convert.ToString(n1) + Convert.ToString(n2);
-                
-                
-                //thisDay.ToString("dd");
+
+
+            //thisDay.ToString("dd");
         }
 
         private void label1_Click(object sender, EventArgs e)
